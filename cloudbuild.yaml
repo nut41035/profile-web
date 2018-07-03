@@ -1,5 +1,0 @@
-steps:
-  - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", ".", "gs://suphawit.com"]
-  - name: gcr.io/cloud-builders/gcloud
-    args: ["app", "deploy"]
