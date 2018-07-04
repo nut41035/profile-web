@@ -129,12 +129,12 @@
       },
       {
         "title": "R",
-        "detail": "Version control of software development is crucial for every project. Especially team project that need many developer to work on the same repository. Git is very powerful and simple tools for this issue.",
+        "detail": "I like to use R for data visualization. R libraries like ggplot2, plyr, can improve your data presentation.",
         "image": "R.svg"
       },
       {
         "title": "React",
-        "detail": "Version control of software development is crucial for every project. Especially team project that need many developer to work on the same repository. Git is very powerful and simple tools for this issue.",
+        "detail": "React's virtual browser makes web development easier. Plus, I can write web based on functions and let react handle user interface update when state is changed.",
         "image": "react.png"
       },
       {
