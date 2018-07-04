@@ -5,7 +5,7 @@
     "occupation": "Computer Engineer",
     "description": "Interested in Artificial Intelligence and realated fields",
     "image": "profilepic.jpg",
-    "bio": "I am a computer engineer who never loses the desire to learn and improve my talents. I never take the easy way out and always give my all in all that I do. I believe that being good at something means putting your 100 percent into it. Which is why I always striving to bring out the best in me in everything. Aside from my life as a computer engineer, I am also a trying hard gamer, a novel addict, and a loving friend",
+    "bio": "I am a computer engineer who never loses the desire to learn and improve my skills. I never take the easy way out and always give my all in all that I do. I believe that being good at something means putting your 100 percent into it. Which is why I always striving to bring out the best in me in everything. Aside from my life as a computer engineer, I am also a trying hard gamer, a novel addict, and a loving friend",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "s.whangprayoat@gmail.com",
     "phone": "(+66)89 788 3466",
@@ -75,10 +75,10 @@
         "description": "Lead a team of 7 students in a Python lab. Guide group's members to solve each task and organize test for each lab. Exam scoring."
       },
       {
-        "company":"Export-Import Bank of Thailand",
-        "title":"Information Technology Intern",
-        "years":"June 2016 - August 2016",
-        "description":"Doing an internship at EXIM Thailand. Job including study company's network infrastructure, LAN setup for new department, Make a document of all IP in company associate with user's name and description using networking software"
+        "company": "Export-Import Bank of Thailand",
+        "title": "Information Technology Intern",
+        "years": "June 2016 - August 2016",
+        "description": "Doing an internship at EXIM Thailand. Job including study company's network infrastructure, LAN setup for new department, Make a document of all IP in company associate with user's name and description using networking software"
       },
       {
         "company": "Schroeders Flowers",
@@ -94,7 +94,7 @@
       },
       {
         "name": "python",
-        "level": "55%"
+        "level": "70%"
       },
       {
         "name": "Machein learning",
@@ -114,37 +114,48 @@
       }
     ]
   },
-  "portfolio": {
-    "projects": [
+  "tools": {
+    "message": "I played around with many tools and frameworks. Here are my favourite.",
+    "tools": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Git",
+        "detail": "Version control of software development is crucial for every project. Especially team project that need many developer to work on the same repository. Git is very powerful and simple tools for this issue.",
+        "image": "git.png"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Python",
+        "detail": "Python was my first programming language that I started using in university years ago. It is yet the language I am most comfortable with in terms of data-structure and algorithm programming.",
+        "image": "python.png"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "R",
+        "detail": "Version control of software development is crucial for every project. Especially team project that need many developer to work on the same repository. Git is very powerful and simple tools for this issue.",
+        "image": "R.svg"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "React",
+        "detail": "Version control of software development is crucial for every project. Especially team project that need many developer to work on the same repository. Git is very powerful and simple tools for this issue.",
+        "image": "react.png"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "LaTeX",
+        "detail": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "latex.png"
+      },
+      {
+        "title": "Docker",
+        "detail": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "docker.png"
+      },
+      {
+        "title": "IntelliJ",
+        "detail": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "IntelliJ.png"
+      },
+      {
+        "title": "Hyperledger-Fabric",
+        "detail": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "hyperledger.png"
       }
     ]
   },
