@@ -133,29 +133,29 @@
         "image": "R.svg"
       },
       {
+        "title": "LaTeX",
+        "detail": "I was suffering from writting and formatting documentation. With LaTeX, I can write document/paper very efficient. Formatting LaTeX file is like writting HTML tags, easy and efficient",
+        "image": "latex.png"
+      },
+      {
         "title": "React",
         "detail": "React's virtual browser makes web development easier. Plus, I can write web based on functions and let react handle user interface update when state is changed.",
         "image": "react.png"
       },
       {
-        "title": "LaTeX",
-        "detail": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "latex.png"
-      },
-      {
         "title": "Docker",
-        "detail": "(MVP Only) A React and Meteor based chat University project.",
+        "detail": "Compare to VMs, Docker is more resource efficiency. I can work on more container with much less resources. Docker allows applications to be isolated into containers with instructions for exactly what they need to survive",
         "image": "docker.png"
       },
       {
         "title": "IntelliJ",
-        "detail": "(MVP Only) A React and Meteor based chat University project.",
+        "detail": "My code looks better with IntelliJ. IDEA provide many useful tools such as, refactoring, detecting duplicates, and smart completion. Plus, IDEA's theme fit me best.",
         "image": "IntelliJ.png"
       },
       {
-        "title": "Hyperledger-Fabric",
-        "detail": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "hyperledger.png"
+        "title": "Agile Framework",
+        "detail": "Agile Framework is good for developer. I can produce more work with less effort because work cycle is short and goals are clear. Large project will be divided into many smaller tasks which is easier to deliver.",
+        "image": "agile.png"
       }
     ]
   },
