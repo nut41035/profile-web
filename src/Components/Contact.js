@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import ReactGA from 'react-ga';
 // import $ from 'jquery';
 // import './Profile.css';
-import Header from "./Paper/Header";
+import Header from "./Contact/Header";
 // import Footer from './Profile/Footer';
 // import About from './Profile/About';
 // import Resume from './Profile/Resume';

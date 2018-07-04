@@ -19,12 +19,12 @@ class Header extends Component {
                 <span>Profile</span>
               </NavLink>
             </li>
-            <li className="current">
+            <li>
               <NavLink to="/paper">
                 <span>Paper</span>
               </NavLink>
             </li>
-            <li>
+            <li className="current">
               <NavLink to="/contact">
                 <span>Contact</span>
               </NavLink>
@@ -32,7 +32,7 @@ class Header extends Component {
           </ul>
         </nav>
 
-          <div className="row banner">
+        <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">Will update soon.</h1>
           </div>

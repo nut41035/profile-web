@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Portfolio extends Component {
+class Tools extends Component {
   render() {
 
     if (this.props.data) {
@@ -35,4 +35,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Tools;
