@@ -5,8 +5,10 @@
     "occupation": "Computer Engineer",
     "description": "Interested in Artificial Intelligence and realated fields",
     "image": "profilepic.jpg",
-    "bio": "I am a computer engineer who never loses the desire to learn and improve my skills. I never take the easy way out and always give my all in all that I do. I believe that being good at something means putting your 100 percent into it. Which is why I always striving to bring out the best in me in everything. Aside from my life as a computer engineer, I am also a trying hard gamer, a novel addict, and a loving friend",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":
+      "I am a computer engineer who never loses the desire to learn and improve my skills. I never take the easy way out and always give my all in all that I do. I believe that being good at something means putting your 100 percent into it. Which is why I always striving to bring out the best in me in everything. Aside from my life as a computer engineer, I am also a trying hard gamer, a novel addict, and a loving friend",
+    "contactmessage":
+      "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "s.whangprayoat@gmail.com",
     "phone": "(+66)89 788 3466",
     "address": {
@@ -46,13 +48,15 @@
         "school": "Sirindhorn International Institute of technology",
         "degree": "Bachelor in computer engineering",
         "graduated": "December 2017",
-        "description": "First-class honor Computer Engineering, Artificial intelligence major. Fix-half 4-years consecutive scholarship."
+        "description":
+          "First-class honor Computer Engineering, Artificial intelligence major. Fix-half 4-years consecutive scholarship."
       },
       {
         "school": "Tokyo Institute of Technology",
         "degree": "Exchange student",
         "graduated": "August 2017",
-        "description": "Experiencing research life at Shudo's labolatory, Mathematics and Computer Science. Research theme is about blockchain performance "
+        "description":
+          "Experiencing research life at Shudo's labolatory, Mathematics and Computer Science. Research theme is about blockchain performance "
       },
       {
         "school": "Samsenwittayalai",
@@ -66,25 +70,29 @@
         "company": "Kasikorn Business-Technology Group",
         "title": "Associate Visionary Architect",
         "years": "January 2018 - Present",
-        "description": "I have two projects here. One is OriginCert. The project is about implementing a document system on blockchain network (Hyperledger). My work focusing on Front-end website and internal website to simplify the way we can interact with blockchain network. Including Api between the web and blockchain. Another project is research on the topic related to computer vision and security. Topic is classified."
+        "description":
+          "I have two projects here. One is OriginCert. The project is about implementing a document system on blockchain network (Hyperledger). My work focusing on Front-end website and internal website to simplify the way we can interact with blockchain network. Including Api between the web and blockchain. Another project is research on the topic related to computer vision and security. Topic is classified."
       },
       {
         "company": "Sirindhorn International Institute of Technology",
         "title": "Teaching assistant",
         "years": "October 2017 - December 2017",
-        "description": "Lead a team of 7 students in a Python lab. Guide group's members to solve each task and organize test for each lab. Exam scoring."
+        "description":
+          "Lead a team of 7 students in a Python lab. Guide group's members to solve each task and organize test for each lab. Exam scoring."
       },
       {
         "company": "Export-Import Bank of Thailand",
         "title": "Information Technology Intern",
         "years": "June 2016 - August 2016",
-        "description": "Doing an internship at EXIM Thailand. Job including study company's network infrastructure, LAN setup for new department, Make a document of all IP in company associate with user's name and description using networking software"
+        "description":
+          "Doing an internship at EXIM Thailand. Job including study company's network infrastructure, LAN setup for new department, Make a document of all IP in company associate with user's name and description using networking software"
       },
       {
         "company": "Schroeders Flowers",
         "title": "Greenhouse worker",
         "years": "March 2014 - May 2014",
-        "description": "By participating in Work & Travel program i have a chance to experience the working life in USA. Working as a greenhouse worker. Job including planting and arrange an order."
+        "description":
+          "By participating in Work & Travel program i have a chance to experience the working life in USA. Working as a greenhouse worker. Job including planting and arrange an order."
       }
     ],
     "skills": [
@@ -115,58 +123,69 @@
     ]
   },
   "tools": {
-    "message": "I played around with many tools and frameworks. Here are my favourite.",
+    "message":
+      "I played around with many tools and frameworks. Here are my favourite.",
     "tools": [
       {
         "title": "Git",
-        "detail": "Version control of software development is crucial for every project. Especially team project that need many developer to work on the same repository. Git is very powerful and simple tools for this issue.",
+        "detail":
+          "Version control of software development is crucial for every project. Especially team project that need many developer to work on the same repository. Git is very powerful and simple tools for this issue.",
         "image": "git.png"
       },
       {
         "title": "Python",
-        "detail": "Python was my first programming language that I started using in university years ago. It is yet the language I am most comfortable with in terms of data-structure and algorithm programming.",
+        "detail":
+          "Python was my first programming language that I started using in university years ago. It is yet the language I am most comfortable with in terms of data-structure and algorithm programming.",
         "image": "python.png"
       },
       {
-        "title": "R",
-        "detail": "I like to use R for data visualization. R libraries like ggplot2, plyr, can improve your data presentation.",
-        "image": "R.svg"
+        "title": "Agile Framework",
+        "detail":
+          "Agile Framework is good for developer. I can produce more work with less effort because work cycle is short and goals are clear. Large project will be divided into many smaller tasks which is easier to deliver.",
+        "image": "agile.png"
       },
       {
         "title": "LaTeX",
-        "detail": "I was suffering from writting and formatting documentation. With LaTeX, I can write document/paper very efficient. Formatting LaTeX file is like writting HTML tags, easy and efficient",
+        "detail":
+          "I was suffering from writting and formatting documentation. With LaTeX, I can write document and paper very efficient. Formatting LaTeX file is like writting HTML tags, easy and efficient",
         "image": "latex.png"
       },
       {
-        "title": "React",
-        "detail": "React's virtual browser makes web development easier. Plus, I can write web based on functions and let react handle user interface update when state is changed.",
-        "image": "react.png"
-      },
-      {
         "title": "Docker",
-        "detail": "Compare to VMs, Docker is more resource efficiency. I can work on more container with much less resources. Docker allows applications to be isolated into containers with instructions for exactly what they need to survive",
+        "detail":
+          "Compare to VMs, Docker is more resource efficiency. I can work on more container with much less resources. Docker allows applications to be isolated into containers with instructions for exactly what they need to survive",
         "image": "docker.png"
       },
       {
-        "title": "IntelliJ",
-        "detail": "My code looks better with IntelliJ. IDEA provide many useful tools such as, refactoring, detecting duplicates, and smart completion. Plus, IDEA's theme fit me best.",
-        "image": "IntelliJ.png"
+        "title": "React",
+        "detail":
+          "React's virtual browser makes web development easier. Plus, I can write web based on functions and let react handle user interface update when state is changed.",
+        "image": "react.png"
       },
       {
-        "title": "Agile Framework",
-        "detail": "Agile Framework is good for developer. I can produce more work with less effort because work cycle is short and goals are clear. Large project will be divided into many smaller tasks which is easier to deliver.",
-        "image": "agile.png"
+        "title": "R",
+        "detail":
+          "I like to use R for data visualization. R libraries like ggplot2, plyr, can improve your data presentation.",
+        "image": "R.svg"
+      },
+      {
+        "title": "IntelliJ",
+        "detail":
+          "My code looks better with IntelliJ. IDEA provide many useful tools such as, refactoring, detecting duplicates, and smart completion. Plus, IDEA's theme fit me best.",
+        "image": "IntelliJ.png"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "text":
+          "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
         "user": "Kareem Abdul Jabbar"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text":
+          "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
         "user": "Steve Wozniak... impersonator"
       }
     ]
