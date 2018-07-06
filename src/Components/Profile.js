@@ -3,7 +3,7 @@ import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './Profile.css';
 import Header from './Profile/Header';
-import Footer from './Profile/Footer';
+import Footer from './Footer';
 import About from './Profile/About';
 import Resume from './Profile/Resume';
 // import Contact from './Profile/Contact';
