@@ -1,0 +1,18 @@
+{
+  "main": {
+    "header": ""
+  },
+  "papers": [
+    {
+      "name":
+        "Performance of Blockchain Network Focusing on Propagation Delay in Ethereum",
+      "year": "2017",
+      "description": "",
+      "abstract":
+        "Blockchain is a distributed ledger of records in a data batches called blocks that use cryptographic method to link them together. We want to enhance the performance of blockchain by accelerate the block rate. As the basis of the enhancement, we have to know the propagation time in the network. This work addresses the difference of the time in various topology. Hence, we gather data by simulating a network of numerous node repeatedly. We then analyze those data using our program.",
+      "at": "Tokyo Institute of Technology"
+    },
+    {},
+    {}
+  ]
+}

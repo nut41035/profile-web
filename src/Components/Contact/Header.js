@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 class Header extends Component {
   render() {
     return (
-      <header id="home">
+      <header id="top">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-import ReactGA from 'react-ga';
-// import $ from 'jquery';
+import ReactGA from "react-ga";
+import $ from "jquery";
 // import './Profile.css';
 import Header from "./Paper/Header";
-// import Footer from './Profile/Footer';
+import Footer from "./Footer";
 // import About from './Profile/About';
 // import Resume from './Profile/Resume';
 // import Contact from './Profile/Contact';
@@ -23,29 +23,30 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
-  // getResumeData(){
-  //   $.ajax({
-  //     url:'/resumeData.json',
-  //     dataType:'json',
-  //     cache: false,
-  //     success: function(data){
-  //       this.setState({resumeData: data});
-  //     }.bind(this),
-  //     error: function(xhr, status, err){
-  //       console.log(err);
-  //       alert(err);
-  //     }
-  //   });
-  // }
+  getResumeData() {
+    $.ajax({
+      url: "/resumeData.json",
+      dataType: "json",
+      cache: false,
+      success: function(data) {
+        this.setState({ resumeData: data });
+      }.bind(this),
+      error: function(xhr, status, err) {
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
 
-  // componentDidMount(){
-  //   this.getResumeData();
-  // }
+  componentDidMount() {
+    this.getResumeData();
+  }
 
   render() {
     return (
       <div className="App">
         <Header />
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }
