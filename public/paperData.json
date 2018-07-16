@@ -8,7 +8,7 @@
         "Performance of Blockchain Network Focusing on Propagation Delay in Ethereum",
       "year": "2017",
       "abstract":
-        "Blockchain is a distributed ledger of records in a data batches called blocks that use cryptographic method to link them together. We want to enhance the performance of blockchain by accelerate the block rate. As the basis of the enhancement, we have to know the propagation time in the network. This work addresses the difference of the time in various topology. Hence, we gather data by simulating a network of numerous node repeatedly. We then analyze those data using our program.",
+        "Blockchain is a distributed ledger of records in a data batches called blocks that use cryptographic method to link them together. We want to enhance the performance of blockchain by accelerate the block rate. As the basis of the enhancement, we have to know the propagation time in the network. This work addresses the difference of the propagation time in various topology. Hence, we gather data by simulating a network of numerous node repeatedly. We then analyze those data using simple programable algorithm. All the work are done on Ethereum network.",
       "at": "Tokyo Institute of Technology",
       "remark": "The research was done during exchange program, YSEP, under supervision of Associate Prof. Kazuyuki Shudo.",
       "link": "https://storage.googleapis.com/suphawit.com/Performance%20of%20Blockchain%20Network_A4.pdf"
@@ -20,7 +20,7 @@
       "abstract":
         "Dota 2: Hero Suggestion System (D2HS) is created to suggest better decision to pick heroes from statistics perspective, which are characters with unique abilities and skills. Normal and high skilled players can develop and improve their strategies. D2HS involved using Probabilistic Logic Programming (PLP) to define relations between heroes and statistics of past games. PLP is applied to the data sets. These data sets will be trained and used to analyze user’s inputs. Probabilistic Argumentation (ProbArg) is applied to enable argumentation after training, which further arguments will be used to enhance the results.",
       "at": "Sirindhorn International Institute of Technology",
-      "remark": "This project was not yet implemented. It is just an idea for graduation project",
+      "remark": "This project was not yet implemented. It is just an idea for graduation project. Supervised by Assistant Prof. Nguyen Duy Hung",
       "link": "https://storage.googleapis.com/suphawit.com/3.2_DOTA2%20Hero%20suggestion.pdf"
     }
   ]
