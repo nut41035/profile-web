@@ -61,7 +61,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={this.state.paperData.main} />
+        <Header
+          data={this.state.paperData.main}
+        />
         <List data={this.state.paperData.papers} />
         <Footer data={this.state.resumeData.main} />
       </div>

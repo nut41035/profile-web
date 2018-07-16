@@ -1,36 +1,51 @@
 import React, { Component } from "react";
-import { Card } from "antd";
+import { Card } from "material-ui/Card";
 
-class Tools extends Component {
+class Paper extends Component {
   render() {
     if (this.props.data) {
       var papers = this.props.data.map(function(data) {
-        var Image = "images/loader.gif";
         return (
-          <Card>
-            <img className="skill" alt={data.name} src={Image} />
-            <h5>{data.name}</h5>
-            <p>{data.year}</p>
-            <p>{data.description}</p>
-            <p>{data.abstract}</p>
-            <p>{data.at}</p>
+          <Card style={{ width: "90%", marginBottom: "3%" }}>
+            <div
+              style={{ marginLeft: "3%", marginRight: "3%" }}
+              className="download"
+            >
+              <br />
+              <h5>{data.name}</h5>
+              <p>
+                {data.year} @{data.at}
+              </p>
+              <p>{data.abstract}</p>
+              <p>{data.remark}</p>
+              <a href={data.link} className="button">
+                <i className="fa fa-download" />Download
+              </a>
+              <br />
+            </div>
           </Card>
         );
       });
     }
     return (
-      <section id="tools">
-        <div className="row tools">
+      <section id="paper">
+        <div
+          className="row paper"
+          style={{ marginTop: "5%", display: "block" }}
+        >
           <div className="three columns header-col">
-            <h1>
-              <span>Preferred Tools</span>
+            <h1 style={{ marginTop: "10px" }}>
+              <span>My Papers</span>
             </h1>
           </div>
 
-          <div>
-            {/* <div className="nine columns main-col">
-              <p className="lead center">{message}</p>
-            </div> */}
+          <div
+            style={{
+              width: "100%",
+              marginLeft: "5%",
+              marginTop: "10%"
+            }}
+          >
             <ul className="bgrid-quarters s-bgrid-thirds cf">{papers}</ul>
           </div>
         </div>
@@ -39,4 +54,4 @@ class Tools extends Component {
   }
 }
 
-export default Tools;
+export default Paper;
