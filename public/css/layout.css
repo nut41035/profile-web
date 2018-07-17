@@ -170,6 +170,47 @@ header .scrolldown a:hover {
   background-color: #333;
 }
 
+.Navbar {
+  background-color: #333;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+  justify-content: center;
+}
+.Navbar__Link {
+  padding-right: 20px;
+}
+.Navbar__Link span {
+  padding-right: 20px;
+  color: white;
+}
+
+.Navbar__Items {
+  display: flex;
+  width: auto;
+  /* center align the menu */
+}
+.Navbar__Items--right {
+  margin-left: auto;
+}
+.Navbar__Link-toggle {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    justify-content: center;
+    display: flex;
+    padding: 1;
+  }
+  .Navbar__Link span {
+    padding: 0;
+    color: white;
+    text-align: center;
+  }
+}
+
 /* hide toggle button */
 #nav-wrap > a.mobile-btn {
   display: none;

@@ -22,30 +22,25 @@ class Header extends Component {
     return (
       <header id="top">
         <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
-          </a>
-
-          <ul id="nav" className="nav">
-            <li className="current">
-              <NavLink to="/profile">
-                <span>Profile</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/paper">
-                <span>Paper</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">
-                <span>Contact</span>
-              </NavLink>
-            </li>
-          </ul>
+          <div class="Navbar">
+            <nav class="Navbar__Items">
+              <div class="Navbar__Link">
+                <NavLink to="/profile">
+                  <span style={{ color: "#f06000" }}>Profile</span>
+                </NavLink>
+              </div>
+              <div class="Navbar__Link">
+                <NavLink to="/paper">
+                  <span>Paper</span>
+                </NavLink>
+              </div>
+              <div class="Navbar__Link">
+                <NavLink to="/contact">
+                  <span>Contact</span>
+                </NavLink>
+              </div>
+            </nav>
+          </div>
         </nav>
 
         <div className="row banner">

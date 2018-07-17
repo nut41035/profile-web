@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Card } from "material-ui/Card";
 
 class Paper extends Component {
   render() {
