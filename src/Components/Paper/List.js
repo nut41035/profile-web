@@ -13,9 +13,11 @@ class Paper extends Component {
             >
               <br />
               <h5>{data.name}</h5>
-              <p>
-                {data.year} @{data.at}
+              <p className="info">
+                <em className="date">{data.year}</em>
+                <span>&bull;</span> {data.at}
               </p>
+
               <p>{data.abstract}</p>
               <p>{data.remark}</p>
               <a href={data.link} className="button">

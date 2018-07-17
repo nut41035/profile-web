@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 class Header extends Component {
   render() {
     return (
-      <header id="top">
+      <div id="top">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -26,18 +26,12 @@ class Header extends Component {
             </li>
             <li className="current">
               <NavLink to="/contact">
-                <span>Contact</span>
+                <span style={{ color: "#f06000" }}>Contact</span>
               </NavLink>
             </li>
           </ul>
         </nav>
-
-        <div className="row banner">
-          <div className="banner-text">
-            <h1 className="responsive-headline">Will update soon.</h1>
-          </div>
-        </div>
-      </header>
+      </div>
     );
   }
 }

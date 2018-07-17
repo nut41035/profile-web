@@ -1293,11 +1293,11 @@ footer .social-links li:first-child {
 /* ------------------------------------------------------------------ */
 /*  k. Paper Section
 /* ------------------------------------------------------------------ */
-
 #paper {
   /* background: rgb(233, 233, 233); */
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/paper-background.jpg) no-repeat top center;
   background-attachment: fixed;
+  background-size: cover !important;
   padding-top: 50px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -1336,6 +1336,8 @@ footer .social-links li:first-child {
 
 #paper p {
   text-align: left;
+  font: 15px/24px "opensans-regular", sans-serif;
+  color: #6e7881;
 }
 #paper .img {
   height: 30;
@@ -1458,6 +1460,180 @@ footer .social-links li:first-child {
   color: #fff;
 }
 .paper-item .paper-item-meta p {
+  font: 12px/18px "opensans-light", sans-serif;
+  color: #c6c7c7;
+  margin-bottom: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/*  l. Contact Section
+/* ------------------------------------------------------------------ */
+#contacts {
+  /* background: rgb(233, 233, 233); */
+  background: #161415 url(../images/contact-background.jpg) no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover !important;
+  padding-top: 50px;
+  padding-bottom: 72px;
+  overflow: hidden;
+  z-index: 1;
+}
+#contacts li span {
+  color: rgb(255, 255, 255);
+}
+
+#contacts a,
+#contacts a:visited {
+  color: #11abb0;
+}
+#contacts a:hover,
+#contacts a:focus {
+  color: #313131;
+}
+
+#contacts h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#contacts h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+#contacts h3 {
+  font: 25px/30px "opensans-bold", sans-serif;
+}
+
+#contacts h5 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  /* text-align: center; */
+}
+
+#contacts p {
+  text-align: left;
+}
+#contacts .img {
+  height: 30;
+}
+
+#contacts .header-col {
+  padding-top: 9px;
+}
+#contacts .main-col {
+  background-color: #fff;
+}
+
+.contacts {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+  background: #ffffff;
+}
+
+#contacts .info {
+  font: 16px/24px "librebaskerville-italic", serif;
+  color: #6e7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+#contacts .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#contacts .date {
+  font: 15px/24px "opensans-regular", sans-serif;
+  margin-top: 6px;
+}
+#contacts .download .button {
+  margin-top: 6px;
+  background: #444;
+  color: #fff;
+}
+#contacts .download .button:hover {
+  background: rgb(0, 118, 228);
+  color: #fff;
+}
+#contacts .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+#contacts-wrapper .columns {
+  margin-bottom: 36px;
+}
+.contacts-item .item-wrap {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.contacts-item .item-wrap a {
+  display: block;
+  cursor: pointer;
+}
+
+/* overlay */
+.contacts-item .item-wrap .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+
+  background: url(../images/overlay-bg.png) repeat;
+}
+.contacts-item .item-wrap .link-icon {
+  display: block;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+.contacts-item .item-wrap img {
+  vertical-align: bottom;
+  height: 30px;
+  width: 30px;
+}
+.contacts-item .contacts-item-meta {
+  padding: 18px;
+}
+.contacts-item .contacts-item-meta h5 {
+  font: 14px/21px "opensans-bold", sans-serif;
+  color: #fff;
+}
+.contacts-item .contacts-item-meta p {
   font: 12px/18px "opensans-light", sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;

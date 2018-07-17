@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+import ReactGA from "react-ga";
+import $ from "jquery";
 // import './Profile.css';
 import Header from "./Contact/Header";
-import Footer from './Footer';
+import Footer from "./Footer";
 // import About from './Profile/About';
 // import Resume from './Profile/Resume';
-// import Contact from './Profile/Contact';
+import Contact from "./Contact/Contact";
 // import Testimonials from './Profile/Testimonials';
 // import Portfolio from './Profile/Portfolio';
 
@@ -23,22 +23,22 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
-  getResumeData(){
+  getResumeData() {
     $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
+      url: "/resumeData.json",
+      dataType: "json",
       cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
+      success: function(data) {
+        this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err){
+      error: function(xhr, status, err) {
         console.log(err);
         alert(err);
       }
     });
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getResumeData();
   }
 
@@ -46,6 +46,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Contact />
         <Footer data={this.state.resumeData.main} />
       </div>
     );

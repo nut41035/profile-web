@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import ReactGA from "react-ga";
 import $ from "jquery";
-// import './Profile.css';
+import "./Paper.css";
 import Header from "./Paper/Header";
 import List from "./Paper/List";
 import Footer from "./Footer";
@@ -61,9 +61,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header
-          data={this.state.paperData.main}
-        />
+        <Header />
         <List data={this.state.paperData.papers} />
         <Footer data={this.state.resumeData.main} />
       </div>
